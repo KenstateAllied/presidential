@@ -15,7 +15,7 @@ import {
   Spin,
 } from 'antd'
 import { addVideo } from '../Redux/video/Actions'
-import firebase from '../base'
+import { } from '../base'
 import { Link } from 'react-router-dom'
 import 'video-react/dist/video-react.css';
 import { connect } from 'react-redux'
@@ -120,6 +120,7 @@ const filteredArray = videos && videos.filter(video => `${video.Description.toLo
     const file = e.target.files[0]
     if (file.size < 10000000) {
       setvideoState(false)
+      
       const storageRef = firebase.storage().ref()
       const fileRef = storageRef.child("videos/" + file.name);
       const uploadTask = fileRef.put(file)

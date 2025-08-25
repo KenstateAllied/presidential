@@ -15,7 +15,7 @@ import {
   Spin,
 } from 'antd'
 import { addVideo } from '../Redux/video/Actions'
-import firebase from '../base'
+import {} from '../base'
 import { Link } from 'react-router-dom';
 import 'video-react/dist/video-react.css'
 import { connect } from 'react-redux'

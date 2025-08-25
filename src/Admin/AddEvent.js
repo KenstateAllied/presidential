@@ -9,7 +9,7 @@ import {
 } from 'antd'
 import { connect } from 'react-redux';
 import { addEvent } from '../Redux/Admin/Actions';
-import firebase from '../base'
+import {} from '../base'
 
 const layout = {
   labelCol: { span: 8 },

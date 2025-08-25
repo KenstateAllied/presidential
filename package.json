@@ -18,7 +18,7 @@
     "core-js": "3",
     "craco-less": "^1.17.0",
     "create-app-react": "^1.0.6",
-    "firebase": "^8.10.1",
+    "firebase": "^12.1.0",
     "firebaseui": "^4.7.1",
     "moment": "^2.29.1",
     "react": "^16.13.1",
