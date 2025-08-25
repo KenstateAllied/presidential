@@ -135,7 +135,7 @@ const LargeScreen = ({ addVideo, currentUser,prevPath }) => {
     const file = e.target.files[0];
     if (file.size < 10000000) {
       setvideoState(false);
-      const storageRef = firebase.storage().ref();
+      const storageRef = {}.storage().ref();
       const fileRef = storageRef.child("videos/" + file.name);
       const uploadTask = fileRef.put(file);
 

@@ -121,7 +121,7 @@ const filteredArray = videos && videos.filter(video => `${video.Description.toLo
     if (file.size < 10000000) {
       setvideoState(false)
       
-      const storageRef = firebase.storage().ref()
+      const storageRef = {}.storage().ref()
       const fileRef = storageRef.child("videos/" + file.name);
       const uploadTask = fileRef.put(file)
 
