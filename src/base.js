@@ -1,3 +1,4 @@
+
 /*
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -19,7 +20,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+//const analytics = getAnalytics(app);
 
 */
 
@@ -29,7 +30,7 @@ const analytics = getAnalytics(app);
 
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
-import { getAnalytics } from "firebase/analytics";  // works in v9+
+//import { getAnalytics } from "firebase/analytics";  // works in v9+
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
@@ -47,8 +48,8 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 // Optional services
-const analytics = getAnalytics(app);
+//const analytics = getAnalytics(app);
 const db = getDatabase(app);
 const auth = getAuth(app);
-
-export { app, db, auth, analytics };
+export default { app, auth, db };
+export { app, db, auth };

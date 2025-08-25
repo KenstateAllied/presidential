@@ -2,7 +2,8 @@ import React, { useState,useEffect } from "react";
 import { Typography, Button, Modal, Spin } from "antd";
 import { addUser } from "../../Redux/Admin/Actions";
 import { connect } from "react-redux";
-import firebase from "../base";
+import * as firebase from "../../base";
+//import { app, auth, db } from '../../base';
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 import { LoadingOutlined } from "@ant-design/icons";
 
