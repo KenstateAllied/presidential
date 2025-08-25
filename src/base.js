@@ -24,6 +24,9 @@ const analytics = getAnalytics(app);
 */
 
 // base.js
+
+
+
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 import { getAnalytics } from "firebase/analytics";  // works in v9+

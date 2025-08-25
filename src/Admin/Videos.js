@@ -20,7 +20,7 @@ import { addPublicVideo, } from "../Redux/video/Actions";
 import { connect } from "react-redux";
 import moment from "moment";
 //import firebase from "../base";
-import {} from "../base";
+import firebase from "/src";
 
 const { Paragraph } = Typography;
 const mapDispatchToProps = (dispatch) => {

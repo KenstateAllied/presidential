@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Form, Input, Button, message, Progress } from "antd";
 import { connect } from "react-redux";
 import { addAboutImage } from "../Redux/Admin/Actions";
-import {} from "../base";
+import firebase from "/src";
 
 const layout = {
   labelCol: { span: 8 },

@@ -8,7 +8,7 @@ import {
 } from 'antd'
 import { connect } from 'react-redux'
 import { addEventHeroImage } from '../Redux/Admin/Actions';
-import {} from '../base'
+import firebase from '/src'
 
 const layout = {
   labelCol: { span: 8 },
